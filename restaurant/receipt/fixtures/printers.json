@@ -1,0 +1,42 @@
+[
+  {
+    "model": "receipt.Printer",
+    "pk": 1,
+    "fields": {
+      "name": "Kitchen Printer 1",
+      "api_key": "kitchen_printer_1",
+      "receipt_type": "kitchen",
+      "point_id": 1
+    }
+  },
+  {
+    "model": "receipt.Printer",
+    "pk": 2,
+    "fields": {
+      "name": "Kitchen Printer 2",
+      "api_key": "kitchen_printer_2",
+      "receipt_type": "kitchen",
+      "point_id": 2
+    }
+  },
+  {
+    "model": "receipt.Printer",
+    "pk": 3,
+    "fields": {
+      "name": "Client Printer 1",
+      "api_key": "client_printer_1",
+      "receipt_type": "client",
+      "point_id": 1
+    }
+  },
+  {
+    "model": "receipt.Printer",
+    "pk": 4,
+    "fields": {
+      "name": "Client Printer 2",
+      "api_key": "client_printer_2",
+      "receipt_type": "client",
+      "point_id": 2
+    }
+  }
+]
