@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "restaurant-api"
+version = "0.1.0"
+description = ""
+authors = ["jeSoosRemirez <dkhomych0091@gmail.com>"]
+readme = "README.md"
+packages = [{include = "restaurant_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.1.7"
+postgres = "^4.0"
+redis = "^4.5.4"
+celery = "^5.2.7"
+flask = "^2.2.3"
+pdfkit = "^1.0.0"
+wkhtmltopdf = "^0.2"
+django-wkhtmltopdf = "^3.4.0"
+djangorestframework = "^3.14.0"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
